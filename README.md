@@ -1,10 +1,11 @@
 # Wenye Li Mini Project 4
+[![CI](https://github.com/nogibjj/Wenye_Li_Mini_Project_4/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/Wenye_Li_Mini_Project_4/actions/workflows/ci.yml)
 
 This repo is for my work of setting up a Gitlab Actions workflow and testing across at least 3 different Python versions.
 
 ![Jobs Image](jobs.png)
 
-According to the requirement it contains:
+It contains:
 
 - `.devcontainer`
 
@@ -21,8 +22,6 @@ This repo also includes a main.py file with a function named `add_two_nums`. The
 ## Installation，Format，Lint，and Test
 
 - To install all the requirements in requirements.txt: run `make install` command
-
-![Installation Image](installation.png)
 
 - To format code: run `make format` command
 
