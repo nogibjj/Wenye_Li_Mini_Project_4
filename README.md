@@ -1,20 +1,25 @@
-# Wenye Li Mini Project 1
+# Wenye Li Mini Project 4
 
-This repo is for my work of creating a python project skeleton that contains functioning placeholders for key python project best-practice elements.
+This repo is for my work of setting up a Gitlab Actions workflow and testing across at least 3 different Python versions.
+
+![Jobs Image](jobs.png)
 
 According to the requirement it contains:
 
-* `.devcontainer`
+- `.devcontainer`
 
-* `Makefile`
+- `GitHub Actions`
 
-* `GitHub Actions` 
+- `Makefile`
 
-* `Requirements.txt`
+- `Requirements.txt`
 
-* `README.md`
+- `README.md`
+
+This repo also includes a main.py file with a function named `add_two_nums`. The function takes two number as input and returns their sum. Then I tested the function in test_main.py file.
 
 ## Installation，Format，Lint，and Test
+
 - To install all the requirements in requirements.txt: run `make install` command
 
 ![Installation Image](installation.png)
